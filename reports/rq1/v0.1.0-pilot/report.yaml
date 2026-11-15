@@ -1,0 +1,12 @@
+report_id: rq1-v0.1.0-pilot
+research_question: rq1
+report_version: v0.1.0-pilot
+status: scaffold
+protocol:
+  id: rq1
+  version: v0.2
+code:
+  commit: null
+source_runs: []
+datasets: []
+generated_at: null

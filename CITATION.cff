@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use koASR Eval, please cite this software."
+type: software
+title: "koASR Eval"
+abstract: "Reproducible, normalization-aware evaluation for Korean ASR"
+authors:
+  - family-names: "Park"
+    given-names: "Seok Beon"
+license: MIT
+repository-code: "https://github.com/bbun-550/koasr-eval"
+version: 0.1.0
+date-released: 2026-11-16

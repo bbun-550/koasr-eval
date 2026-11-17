@@ -7,7 +7,7 @@ name = "koasr-eval"
 version = "0.1.0"
 description = "Reproducible, normalization-aware evaluation for Korean ASR"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.13"
 license = { file = "LICENSE" }
 authors = [{ name = "Seok Beon Park" }]
 classifiers = [

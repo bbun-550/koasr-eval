@@ -31,11 +31,19 @@ Initial scaffold. Public APIs and artifact schemas are not stable yet.
 ## Development
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -e '.[dev]'
-pytest
+git clone git@github.com:bbun-550/koasr-eval.git
+cd koasr-eval
+make setup
+make check
 ```
+
+The project uses [uv](https://docs.astral.sh/uv/) with a committed lockfile.
+`make setup` installs the reference Python 3.12 interpreter and creates the
+local `.venv`; it does not modify the system Python. Python 3.10 through 3.12
+are supported and validated in CI.
+
+See [`docs/getting-started/README.md`](docs/getting-started/README.md) for the
+full setup and troubleshooting guide.
 
 ## Data policy
 
